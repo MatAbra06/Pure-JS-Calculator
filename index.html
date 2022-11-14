@@ -8,22 +8,34 @@
 
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>Document</title>
+    <title>Calculator</title>
 
     <link rel="canonical" href="">
 
     <meta name="author" content="Mateusz Abrahamowicz">
-    <link rel="apple-touch-icon" sizes="180x180" href="./src/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./src/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./src/icons/favicon-16x16.png">
-    <link rel="manifest" href="./src/icons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./dist/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./dist/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./dist/icons/favicon-16x16.png">
+    <link rel="manifest" href="./dist/icons/site.webmanifest">
 
     <link rel="stylesheet" href="./dist/css/main.min.css">
 </head>
 
 <body>
 
-    <h1>PRACUJ W KICIE, NIE W HTML</h1>
+    <div class="calculator">
+        <div class="calculator__up">
+            <div class="calculator__up--left">
+                <img src="./dist/img/calculator.svg" alt="" class="calc-icon">
+                <p class="calc-title">Kalkulator</p>
+            </div>
+            <div class="calculator__up--right">
+                <button class="feature-btn"><img class="feature-btn-inner" src="./dist/img/minus.svg" alt=""></button>
+                <button class="feature-btn"><img class="feature-btn-inner" src="./dist/img/square.svg" alt=""></button>
+                <button class="feature-btn"><img class="feature-btn-inner" src="./dist/img/close.svg" alt=""></button>
+            </div>
+        </div>
+    </div>
 
     <script src="./dist/js/main.min.js"></script>
 </body>
