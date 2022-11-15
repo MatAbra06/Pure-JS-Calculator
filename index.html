@@ -24,16 +24,27 @@
 <body>
 
     <div class="calculator">
-        <div class="calculator__up">
-            <div class="calculator__up--left">
+        <div class="calculator__header">
+            <div class="calculator__header--left">
                 <img src="./dist/img/calculator.svg" alt="" class="calc-icon">
                 <p class="calc-title">Kalkulator</p>
             </div>
-            <div class="calculator__up--right">
-                <button class="feature-btn"><img class="feature-btn-inner" src="./dist/img/minus.svg" alt=""></button>
-                <button class="feature-btn"><img class="feature-btn-inner" src="./dist/img/square.svg" alt=""></button>
-                <button class="feature-btn"><img class="feature-btn-inner" src="./dist/img/close.svg" alt=""></button>
+            <div class="calculator__header--right">
+                <button class="feature-btn btn-minimalize"><img class="feature-btn-inner" src="./dist/img/minus.svg" alt=""></button>
+                <button class="feature-btn btn-maximize"><img class="feature-btn-inner" src="./dist/img/square.svg" alt=""></button>
+                <button class="feature-btn btn-close"><img class="feature-btn-inner" src="./dist/img/close.svg" alt=""></button>
             </div>
+        </div>
+        <div class="calculator__up">
+            <button class="icon">
+                <div class="icon__inner">
+                    <div class="icon__inner--line icon__inner--line-one"></div>
+                    <div class="icon__inner--line icon__inner--line-two"></div>
+                    <div class="icon__inner--line icon__inner--line-three"></div>
+                </div>
+            </button>
+            <p class="type-of-calc">Standardowy</p>
+            <button class="history"><img class="history-icon" src="./dist/img/history.svg" alt=""></button>
         </div>
     </div>
 
